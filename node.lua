@@ -12,5 +12,5 @@ end)
 
 function node.render()
     gl.clear(0,0,0,1)
-    font:write(250, 300, text, 72, 1,1,1,1) -- use the CONFIG value
+    font:write(250, 300, text, 72, 10,10,10,1) -- use the CONFIG value
 end
