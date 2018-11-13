@@ -17,6 +17,6 @@ end)
 function node.render()
     gl.clear(0,0,0,1)
     white:draw(0, 0, WIDTH, row_height)
-    light_grey:draw(0, 0, row_height, row_height*2)
+    light_grey:draw(0, row_height, WIDTH, row_height*2)
     font:write(250, 300, text, 72, 0,0,1,1) -- use the CONFIG value
 end
