@@ -25,5 +25,5 @@ function node.render()
         end
     end
 
-    font:write(250, 300, text, 72, 0,0,1,1) -- use the CONFIG value
+    font:write(250, 108, text, 108, 0,0,0,1) -- use the CONFIG value
 end
