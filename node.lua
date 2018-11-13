@@ -5,7 +5,7 @@ local text = "Hello World"
 local white = resource.load_image("white.png")
 local light_grey = resource.load_image("light_grey.png")
 
-local row_height = 90
+local row_height = 180
 
 util.json_watch("config.json", function(config)
     -- called each time the configuration is changed. 'config'
