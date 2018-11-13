@@ -23,7 +23,6 @@ function node.render()
         else
             light_grey:draw(0, i, WIDTH, i + row_height)
         end
+        font:write(250, i, text, 108, 0,0,0,1)
     end
-
-    font:write(250, 108, text, 108, 0,0,0,1) -- use the CONFIG value
 end
